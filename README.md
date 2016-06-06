@@ -1,9 +1,9 @@
 FuckFuckFuckAdBlock (v3.2.1)
 ===========
 
-* Clone of FuckAdblock
+* Fork of FuckAdblock
 
-You can detect nasty ad blockers.
+You can detect nasty ad blockers, and block fuckfuckadblock.
 Online example: http://sitexw.fr/fuckadblock/
 
 (There is also a project, [BlockAdBlock](https://github.com/sitexw/BlockAdBlock), with a more convenient name)
