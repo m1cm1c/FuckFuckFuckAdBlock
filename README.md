@@ -23,15 +23,7 @@ Install via
 ---------------------
 Manual:
 ```
-Download "fuckadblock.js" and add it to your website.
-```
-Bower:
-```
-bower install fuckadblock
-```
-Node.js/io.js:
-```
-npm install fuckadblock
+Download "fuckfuckfuckadblock.js" and add it to your website.
 ```
 
 
@@ -76,7 +68,7 @@ Default options
 ---------------------
 ```javascript
 // At launch, check if AdBlock is enabled
-// Uses the method fuckAdBlock.check()
+// Uses the method fuckfuckfuckAdBlock.check()
 checkOnLoad: true
 
 // At the end of the check, is that it removes all events added ?
@@ -126,7 +118,7 @@ fuckfuckfuckAdBlock.clearEvent();
 // #fn:       function
 fuckfuckfuckAdBlock.on(detected, fn);
 
-// Similar to fuckAdBlock.on(true|false, fn)
+// Similar to fuckfuckfuckAdBlock.on(true|false, fn)
 fuckfuckfuckAdBlock.onDetected(fn);
 fuckfuckfuckAdBlock.onNotDetected(fn);
 ```
@@ -135,10 +127,10 @@ Instance
 ---------------------
 *(Available only from version 3.1 and more)*
 By default, FuckAdBlock is instantiated automatically.
-To block this automatic instantiation, simply create a variable "fuckAdBlock" with a value (null, false, ...) before importing the script.
+To block this automatic instantiation, simply create a variable "fuckfuckfuckAdBlock" with a value (null, false, ...) before importing the script.
 ```html
 <script>var fuckfuckfuckAdBlock = false;</script>
-<script src="./fuckadblock.js"></script>
+<script src="./fuckfuckfuckadblock.js"></script>
 ```
 After that, you are free to create your own instances:
 ```javascript
