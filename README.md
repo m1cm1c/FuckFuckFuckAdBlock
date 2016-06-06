@@ -1,5 +1,7 @@
-FuckAdBlock (v3.2.1)
+FuckFuckFuckAdBlock (v3.2.1)
 ===========
+
+* Clone of FuckAdblock
 
 You can detect nasty ad blockers.
 Online example: http://sitexw.fr/fuckadblock/
@@ -48,22 +50,22 @@ function adBlockDetected() {
 // Recommended audit because AdBlock lock the file 'fuckadblock.js' 
 // If the file is not called, the variable does not exist 'fuckAdBlock'
 // This means that AdBlock is present
-if(typeof fuckAdBlock === 'undefined') {
+if(typeof fuckfuckfuckAdBlock === 'undefined') {
 	adBlockDetected();
 } else {
-	fuckAdBlock.onDetected(adBlockDetected);
-	fuckAdBlock.onNotDetected(adBlockNotDetected);
+	fuckfuckfuckAdBlock.onDetected(adBlockDetected);
+	fuckfuckfuckAdBlock.onNotDetected(adBlockNotDetected);
 	// and|or
-	fuckAdBlock.on(true, adBlockDetected);
-	fuckAdBlock.on(false, adBlockNotDetected);
+	fuckfuckfuckAdBlock.on(true, adBlockDetected);
+	fuckfuckfuckAdBlock.on(false, adBlockNotDetected);
 	// and|or
-	fuckAdBlock.on(true, adBlockDetected).onNotDetected(adBlockNotDetected);
+	fuckfuckfuckAdBlock.on(true, adBlockDetected).onNotDetected(adBlockNotDetected);
 }
 
 // Change the options
-fuckAdBlock.setOption('checkOnLoad', false);
+fuckfuckfuckAdBlock.setOption('checkOnLoad', false);
 // and|or
-fuckAdBlock.setOption({
+fuckfuckfuckAdBlock.setOption({
 	debug: true,
 	checkOnLoad: false,
 	resetOnEnd: false
@@ -103,30 +105,30 @@ Method available
 // Allows to set options
 // #options: string|object
 // #value:   string
-fuckAdBlock.setOption(options, value);
+fuckfuckfuckAdBlock.setOption(options, value);
 
 // Allows to check if AdBlock is enabled
 // The parameter 'loop' allows checking without loop several times according to the value of 'loopMaxNumber'
 // Example: loop=true  => time~=200ms (time varies depending on the configuration)
 //          loop=false => time~=1ms
 // #loop: boolean (default: true)
-fuckAdBlock.check(loop);
+fuckfuckfuckAdBlock.check(loop);
 
 // Allows to manually simulate the presence of AdBlock or not
 // #detected: boolean (AdBlock is detected ?)
-fuckAdBlock.emitEvent(detected);
+fuckfuckfuckAdBlock.emitEvent(detected);
 
 // Allows to clear all events added via methods 'on', 'onDetected' and 'onNotDetected'
-fuckAdBlock.clearEvent();
+fuckfuckfuckAdBlock.clearEvent();
 
 // Allows to add an event if AdBlock is detected
 // #detected: boolean (true: detected, false: not detected)
 // #fn:       function
-fuckAdBlock.on(detected, fn);
+fuckfuckfuckAdBlock.on(detected, fn);
 
 // Similar to fuckAdBlock.on(true|false, fn)
-fuckAdBlock.onDetected(fn);
-fuckAdBlock.onNotDetected(fn);
+fuckfuckfuckAdBlock.onDetected(fn);
+fuckfuckfuckAdBlock.onNotDetected(fn);
 ```
 
 Instance
@@ -135,14 +137,14 @@ Instance
 By default, FuckAdBlock is instantiated automatically.
 To block this automatic instantiation, simply create a variable "fuckAdBlock" with a value (null, false, ...) before importing the script.
 ```html
-<script>var fuckAdBlock = false;</script>
+<script>var fuckfuckfuckAdBlock = false;</script>
 <script src="./fuckadblock.js"></script>
 ```
 After that, you are free to create your own instances:
 ```javascript
-fuckAdBlock = new FuckAdBlock;
+fuckfuckfuckAdBlock = new FuckFuckFuckAdBlock;
 // and|or
-myFuckAdBlock = new FuckAdBlock({
+myFuckFuckFuckAdBlock = new FuckFuckFuckAdBlock({
 	checkOnLoad: true,
 	resetOnEnd: true
 });
